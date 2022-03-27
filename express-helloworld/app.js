@@ -4,7 +4,7 @@ app = express();
 app.get('/', function (req, res) {
   res.send('Hello World!\n');
 });
-// New feature mars
+// New feature Mars.
 app.get('/mars', function(req, res) {
   res.send('Hello Mars!\n');
 });
